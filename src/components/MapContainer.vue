@@ -37,10 +37,10 @@ let MarkerArr =ref([]);
 let Poly =null;
 onMounted(() => {
   window._AMapSecurityConfig = {
-    securityJsCode: "5e3a9c487916b09a37d499044f9a2509",
+    securityJsCode: "    ",
   };
   AMapLoader.load({
-    key: "	3b1ef69c8745d6de706265a803906e94",
+    key: "    ",
     version: "2.0",
     plugins: ["AMap.Scale",
               "AMap.ToolBar",
