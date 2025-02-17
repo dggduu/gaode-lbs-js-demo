@@ -8,10 +8,10 @@
   <p class="header2">marker信息：</p>
   <table class="data-arr">
     <th>index</th>
-    <th>纬度</th>
-    <th>经度</th>
-    <th>创建时间</th>
-    <th>操作</th>
+    <th>纬度：</th>
+    <th>经度：</th>
+    <th>创建时间：</th>
+    <th>操作：</th>
     <tr v-for="(marker,index) in MarkerArr" :key="index">
       <td>{{index+1}}</td>
       <td>{{ marker.lat}}</td>
