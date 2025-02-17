@@ -52,7 +52,7 @@ onMounted(() => {
       map = new AMap.Map("container", {
         viewMode: "2D",
         zoom: 15,
-        center: [112.946191,28.183942],
+        center: [200，200],
       });
 
 
